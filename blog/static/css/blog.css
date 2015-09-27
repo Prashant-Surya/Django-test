@@ -14,9 +14,10 @@ h1	a	{
 #header h1 a{
   color:white;
 }
-#header :focus{
+#header :hover{
   color: black;
   background-color: blue;
+  text-decoration: none;
 }
 .container{
   /*margin-left: 285px;*/
