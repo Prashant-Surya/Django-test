@@ -4,7 +4,7 @@ h1	a	{
 }
 #posts
 {
-  padding-left: 40px;
+  /*padding-left: 40px;*/
 }
 #header{
   background-color:	#ff9400;
@@ -19,6 +19,6 @@ h1	a	{
   background-color: blue;
 }
 .container{
-  margin-left: 285px;
+  /*margin-left: 285px;*/
 
 }

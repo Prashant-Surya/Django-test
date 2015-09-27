@@ -7,7 +7,9 @@
 		{{	post.published_date	}}
 	</div>
 	<h1><a	href="">{{	post.title	}}</a></h1>
-	<p>{{	post.text|linebreaks	}}</p>
+	<p>{{	post.text|truncatewords:50}}
+		<a href="">more</a></p>
+
 </div>
 {%	endfor	%}
 </div>
