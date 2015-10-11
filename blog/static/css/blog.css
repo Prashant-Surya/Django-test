@@ -2,6 +2,9 @@ h1	a	{
   color:	#FCA205;
   font-family:	'Lobster';
 }
+h1{
+  font-family:	'Lobster';
+}
 #posts
 {
   /*padding-left: 40px;*/
@@ -16,10 +19,15 @@ h1	a	{
 }
 #header :hover{
   color: black;
-  background-color: blue;
+  /*background-color: blue;*/
   text-decoration: none;
 }
 .container{
   /*margin-left: 285px;*/
-
+}
+.save	{
+				float:	right;
+}
+.post-form	textarea,	.post-form	input	{
+				width:	100%;
 }
