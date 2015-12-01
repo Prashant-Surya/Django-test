@@ -4,5 +4,5 @@ urlpatterns	= [url(r'^$',views.post_list,name='post_list'),
                url(r'^post/(?P<pk>[0-9]+)/$',views.post_detail,name="post_detail"),
                url(r'^post/new/',views.post_new,name="post_new"),
                url(r'^post/(?P<pk>[0-9]+)/edit/$',views.post_edit,name="post_edit"),
-               url(r'^data/',views.out,name="out")
+               url(r'^data/(?P<name>\w{0,50})/$',views.out,name="out")
                ]
